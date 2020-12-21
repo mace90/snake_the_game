@@ -13,6 +13,7 @@ class Food(Turtle):
         self.speed("fastest")
         self.refresh()
 
+
     def refresh(self):
         self.random_x = random.randrange(-280, 280)
         self.random_y = random.randrange(-280, 280)
